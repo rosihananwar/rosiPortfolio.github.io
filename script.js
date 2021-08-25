@@ -10,7 +10,7 @@ $(document).ready(function () {
 });
 
 const scriptURL = "https://script.google.com/macros/s/AKfycbzayjYpC0Io9Qm24p5Kn9Tnd3Lerlr9tfkZXCCi7_h1EU8eUAE5-QDHWoZ7ei4emiXAWA/exec";
-const form = document.forms["contactForm"];
+const form = document.forms["sentMessage"];
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
