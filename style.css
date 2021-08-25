@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  line-height: 1.15;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6c757d;
+  text-align: left;
+  background-color: rgb(32, 32, 32);
+}
+
+a {
+  color: #0bceaf;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/*======= navigation menu   ============*/
+.navbar a h1 span {
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+}
+.navbar a {
+  font-size: 15px;
+}
+
+.navbar {
+  border-bottom: solid #524a4a 1px;
+}
+.navbar-light {
+  display: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  padding: 25px 10px;
+  color: #343a40;
+  font-weight: 500;
+  outline: none;
+}
+.navbar .collapse .navbar-nav a:hover {
+  color: rgb(6, 129, 53);
+}
+
+/* ==============  Home section  ============== */
+#home {
+  background: url("images/background.jpg") center no-repeat;
+  height: 100vh;
+}
+.container-fluit#home {
+  background-color: red;
+}
+.about-img {
+  margin-left: -100px;
+  right: -60px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 25px;
+  border-radius: 100px;
+}
+.btn-white {
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.btn-blue {
+  border: 2.4px solid #ffffff;
+  color: #ffffff;
+}
+.btn-blue:hover {
+  border: 2.4px solid #ffffff;
+  color: rgb(10, 94, 10);
+  background-color: white;
+}
+.hero-text {
+  margin-top: 150px;
+}
+.typed-cursor {
+  font-size: 45px;
+  color: #ffffff;
+}
+.position-absolute {
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .display-2 {
+    font-size: 50px;
+  }
+  h1.display-1 {
+    font-size: 7rem;
+  }
+}
+
+/*  =========== About Section ================*/
+
+.blue:hover {
+  background-color: white;
+  color: blue;
+  border-radius: 2px solid blue;
+}
+
+.progress {
+  border-radius: 10px;
+}
+
+.progress .progress-bar {
+  width: 0px;
+  border-radius: 10px;
+  transition: 2s;
+}
+.display-1 {
+  font-size: 160px;
+  font-weight: 300;
+}
+
+.portfolio-item .portfolio-btn {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+  border-radius: 4px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.portfolio-item:hover .portfolio-btn {
+  opacity: 1;
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  top: 30px;
+  left: 30px;
+}
+
+/* ========================== Contact Us ========================*/
+
+.contact-form .help-block ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/*====================== Back to buttom ==================*/
+
+.back-to-top {
+  position: fixed;
+  width: 30px;
+  text-align: center;
+  right: 30px;
+  bottom: 30px;
+  z-index: 11;
+  animation: action 1s infinite alternate;
+}
+
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+a.active {
+  padding: 2px;
+  margin: 0px;
+}
