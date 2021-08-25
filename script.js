@@ -9,7 +9,7 @@ $(document).ready(function () {
   });
 });
 
-const scriptURL = "https://script.google.com/macros/s/AKfycbzayjYpC0Io9Qm24p5Kn9Tnd3Lerlr9tfkZXCCi7_h1EU8eUAE5-QDHWoZ7ei4emiXAWA/exec";
+const scriptURL = "https://script.google.com/macros/s/AKfycbyC-AHkSylI6Pl_tK0wdqvr4fbswswSM_AfjNG5-jq8DvcaTCseuFxfIcwdoS6FR06ZqA/exec";
 const form = document.forms["sentMessage"];
 
 form.addEventListener("submit", (e) => {
